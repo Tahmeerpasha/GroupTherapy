@@ -2,11 +2,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.RoundRectangle2D;
-public class LoginUI implements ActionListener {
+public class FirstPage1 {
     JTextField textField, textField1;
     JLabel label,label1,label2;
     JButton button;
-    LoginUI(){
+    FirstPage1(){
         JFrame f = new JFrame("Group Therapy App");
         //////////////////////////////////////////////////////////////////////////
         label = new JLabel("LOGIN PAGE");
@@ -31,8 +31,6 @@ public class LoginUI implements ActionListener {
         textField1.setBounds(30,190, 200,30);
         f.add(textField1);
         ///////////////////////////////////////////////////////////////////////
-
-        ///////////////////////////////////////////////////////////////////////
         button = new JButton("LOGIN");
         button.setBounds(30,230,100,30);
         button.setBackground(Color.pink);
@@ -51,14 +49,9 @@ public class LoginUI implements ActionListener {
         f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
-         new LoginUI();
+         new FirstPage1();
     }
 
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-    }
     class RoundedJTextField extends JTextField {
         private Shape shape;
         public RoundedJTextField(int size) {
