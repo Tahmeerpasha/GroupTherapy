@@ -2,6 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.RoundRectangle2D;
+package net.codejava.swing.hyperlink;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 public class FirstPage1 {
     JTextField textField, textField1;
     JLabel label,label1,label2;
@@ -31,6 +35,42 @@ public class FirstPage1 {
         textField1.setBounds(30,190, 200,30);
         f.add(textField1);
         ///////////////////////////////////////////////////////////////////////
+//        JLabel hyperlink = new JLabel("Sign up");
+//        hyperlink.setBounds(70,260,8,30);
+//        hyperlink.setForeground(Color.BLUE.darker());
+//        f.add(hyperlink);
+//        hyperlink.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+//        hyperlink.addMouseListener(new MouseAdapter() {
+//
+//            @Override
+//            public void mouseClicked(MouseEvent e) {
+//                // the user clicks on the label
+//            }
+//
+//            @Override
+//            public void mouseEntered(MouseEvent e) {
+//                // the mouse has entered the label
+//            }
+//
+//            @Override
+//            public void mouseExited(MouseEvent e) {
+//                // the mouse has exited the label
+//            }
+//        }
+//        public void mouseClicked(MouseEvent e) {
+//            try {
+//
+//                f.dispose();
+//                new CreateAccount2();
+//
+//            } catch (Exception e1) {
+//                e1.printStackTrace();
+//            }
+//        }
+
+
+        //////////////////////////////////////////////////////////////////////
+
         button = new JButton("LOGIN");
         button.setBounds(30,230,100,30);
         button.setBackground(Color.pink);

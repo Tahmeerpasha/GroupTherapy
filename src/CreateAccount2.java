@@ -9,7 +9,7 @@ public class CreateAccount2 {
     JButton button;
     public CreateAccount2() {
 
-        JFrame frame = new JFrame("Registration Page");
+        JFrame frame = new JFrame("Sign up page");
         label = new JLabel("CREATE ACCOUNT");
         label.setBounds(30,00,400,40);
         frame.add(label);
@@ -40,6 +40,7 @@ public class CreateAccount2 {
         ////////////////////////////////////////////////////////////////////
         button = new JButton("Sign Up");
         button.setBounds(30,220,100,30);
+        button.setBackground(Color.pink);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -48,6 +49,13 @@ public class CreateAccount2 {
             }
         });
         frame.add(button);
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                new SecondPage3();
+            }
+        });
         ///////////////////////////////////////////////////////////////////
         frame.setLayout(new BorderLayout());
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
