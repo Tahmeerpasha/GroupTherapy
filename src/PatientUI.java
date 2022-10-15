@@ -15,36 +15,36 @@ public class PatientUI {
 
 
         label1 = new JLabel("Problem facing");
-        label1.setBounds(30,50,200,20);
+        label1.setBounds(30,80,100,30);
         frame.add(label1);
         //////////////////////////////////////////////////////////////////
         textField1 = new JTextField(20);
-        textField1.setBounds(30,70,250,30);
+        textField1.setBounds(300,80,300,30);
         frame.add(textField1);
         //////////////////////////////////////////////////////////////////
         label2 = new JLabel("Problem:since when");
-        label2.setBounds(30,100,200,20);
+        label2.setBounds(30,120,150,30);
         frame.add(label2);
         ////////////////////////////////////////////////////////////////
         textField2 = new JTextField(20);
-        textField2.setBounds(30,120,250,30);
+        textField2.setBounds(300,120,300,30);
         frame.add(textField2);
         ///////////////////////////////////////////////////////////////////
-        label3 = new JLabel("Kindly elaborate problem");
-        label3.setBounds(30,150,200,20);
+        label3 = new JLabel("Kindly elaborate your problem");
+        label3.setBounds(30,160,200,20);
         frame.add(label3);
         //////////////////////////////////////////////////////////////////
         textField3 = new JTextField(300);
-        textField3.setBounds(30,170,250,60);
+        textField3.setBounds(300,160,400,30);
         frame.add(textField3);
         ////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////
         label4 = new JLabel("Choose time slot:");
-        label4.setBounds(30,240,200,20);
+        label4.setBounds(30,200,200,20);
         frame.add(label4);
         //////////////////////////////////////////////////////////////////
         combo = new JComboBox(time);
-        combo.setBounds(30,260,200,30);
+        combo.setBounds(30,220,200,30);
         combo.setBackground(Color.CYAN);
         combo.setForeground(Color.BLACK);
         frame.add(combo);
