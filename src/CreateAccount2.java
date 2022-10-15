@@ -41,13 +41,6 @@ public class CreateAccount2 {
         button = new JButton("Sign Up");
         button.setBounds(30,220,100,30);
         button.setBackground(Color.pink);
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                new FirstPage1();
-            }
-        });
         frame.add(button);
         button.addActionListener(new ActionListener() {
             @Override
