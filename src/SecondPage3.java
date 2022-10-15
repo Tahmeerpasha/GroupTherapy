@@ -22,6 +22,7 @@ public class SecondPage3 {
         });
         ///////////////////////////////////////////////
         button2 = new JButton("Register as patient");
+        ImageIcon icon = new ImageIcon();
         button2.setBounds(50,270,250,30);
         button2.setBackground(Color.pink);
         button2.addActionListener(new ActionListener() {
