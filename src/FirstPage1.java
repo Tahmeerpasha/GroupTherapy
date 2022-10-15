@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.RoundRectangle2D;
-package net.codejava.swing.hyperlink;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
